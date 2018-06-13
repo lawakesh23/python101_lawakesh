@@ -1,0 +1,14 @@
+1.Create a file and write down shebang of Bash and Perl.
+Ans- 
+    #!/usr/bin/env bash
+    #!/bin/bash
+    #!/bin/sh
+    #!/bin/sh -
+ 
+adding a dash to the end prevents someone passing a command to your script, but can’t find any details on that.
+
+ #!/usr/bin/perl
+#!/usr/bin/perl -w
+#!/usr/bin/env perl
+
+The first two specify the directory from which to run Perl. As a bonus, this form allows passing an option, e.g. -w (used to turn on warnings).
